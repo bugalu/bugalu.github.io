@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+}
+
+header {
+  padding: 1rem;
+}
+
 .header__heading {
   font-size: 1.5rem;
   margin-bottom: 0.25rem;
@@ -7,4 +15,24 @@
 .header__text {
   margin-top: 0;
   font-size: 0.875rem;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  background-color: #ddd;
+  text-align: center;
+  font-size: 0.9125rem;
+}
+
+.footer__address {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
